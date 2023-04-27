@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>El Porte Folio</title>
+    <link rel="stylesheet" href="../css/Lestyle.css" />
+    <link rel="shortcut icon" href="../image/Paysage.png" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <img
+          src="../image/Ic.jpg"
+          height="100"
+          alt="image entete"
+          title="image entete"
+          id="entêtei1"
+        />
+        <h1>El Porte Folio</h1>
+        <img
+          src="../image/Ic.jpg"
+          height="100"
+          alt="image entete"
+          title="image entete"
+          id="entêtei2"
+        />
+      </div>
+      <h3>L'art au bout des doigts</h3>
+    </header>
+    <nav class="N°1">
+      <a href="ALOB.html" class="E°0">Home</a>
+      <a href="NT.html" class="E°1">L'équipe</a>
+      <a href="NC.html" class="E°2">Nous contacter</a>
+    </nav>
+    <section>
+      <div class="D°1">
+        <p>
+          Pour directement accerder au photos, appuyez sur le bouton ci-dessous:
+        </p>
+        <a href="Rendre.html" class="jeu">M'y rendre</a>
+        <p>----------</p>
+      </div>
+    </section>
+    <main class="css-formulaire">
+      <form id="myForm" action="Database.php" method="POST">
+        <h2>Contactez-nous</h2>
+        <div class="separation"></div>
+        <div class="corps-formulaire">
+          <div class="gauche">
+            <div class="grp">
+              <label>Votre Nom et Prénom :</label>
+              <input type="text" name="name"autocomplete="off" />
+              <i class="fas fa-user"></i>
+            </div>
+            <div class="grp">
+              <label for="age">Age :</label>
+              <input id="age" name="age" type="number" min="0" max="130" step="10" />
+            </div>
+            <div class="grp">
+              <label>Votre adresse e-mail :</label>
+              <input type="email" name="email" autocomplete="off" />
+              <i class="fas fa-envelope"></i>
+            </div>
+            <div class="grp">
+              <label>Votre téléphone :</label>
+              <input type="text" name="telephone" autocomplete="off" />
+              <i class="fas fa-mobile"></i>
+            </div>
+          </div>
+          <div class="droite">
+            <div class="grp">
+              <label>Message :</label>
+              <textarea placeholder="Saisissez ici..." name="message"></textarea>
+            </div>
+          </div>
+        </div>
+        <div class="pied-formulaire" align="center">
+          <button>Envoyer le message</button>
+        </div>
+      </form>
+    </main>
+  </body>
+  <footer class="elmt_0">
+    <p class="elmt_1">Coordonnée:</p>
+    <div class="elmt_2">
+      <br />
+      <p>Numéro de téléphone</p>
+      <p>Adresse</p>
+      <p>Adresse mail</p>
+    </div>
+    <div class="elmt_3">
+      <br />
+      <p>:</p>
+      <p>:</p>
+      <p>:</p>
+    </div>
+    <div class="elmt_4">
+      <br />
+      <p>+33 06* *** ***</p>
+      <p>Strasbourg</p>
+      <p>EPfolio@gmail.com</p>
+    </div>
+    <div class="elmt_5">
+      <img
+        src="../image/objectif-photo.jpeg"
+        height="150"
+        alt="image de carte à la fin"
+        title="image de carte à la fin"
+        id="footerimg"
+      />
+    </div>
+  </footer>
+  <br />
+</html>
